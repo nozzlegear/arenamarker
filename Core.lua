@@ -16,6 +16,7 @@ local function MarkParty(self, event, isInitialLogin, isReloadingUi)
     local instanceName, instanceType = GetInstanceInfo()
 
     -- Only mark players if the player is in arena 
+    -- TODO: will this work when the player is the first to load in? Party may appear empty?
     if instanceType == "arena" then 
         MaybeMarkUnit("player", 2)
 
