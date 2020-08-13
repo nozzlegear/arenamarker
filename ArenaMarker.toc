@@ -1,0 +1,9 @@
+## Interface: 80000
+## Title: ArenaMarker
+## Version: 1.0.0
+## Author: Djur
+## eMail: joshua@nozzlegear.com
+## Description: Automatically marks all friendly arena players with a target marker. 
+## DefaultState: enabled
+
+Core.lua
