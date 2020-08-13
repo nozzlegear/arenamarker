@@ -15,7 +15,7 @@ local function MarkParty(self, event, isInitialLogin, isReloadingUi)
     -- https://wow.gamepedia.com/API_GetInstanceInfo
     local instanceName, instanceType = GetInstanceInfo()
 
-    -- Temporarily pretend that being in "none" instance is like being in an arena
+    -- Only mark players if the player is in arena 
     if instanceType == "arena" then 
         MaybeMarkUnit("player", 2)
 
