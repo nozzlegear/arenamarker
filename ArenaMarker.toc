@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 90105
 ## Title: ArenaMarker
 ## Version: 1.0.0
 ## Author: Djur
